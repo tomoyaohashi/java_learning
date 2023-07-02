@@ -15,6 +15,8 @@ public class Hello { // public classは「ここからプログラム処理が�
         int b = 2;
         int c = a + b;  // cは3になる（1+2）
         System.out.println("1 + 2 = " + c); // 計算した結果を表示する
+
+
     }
 }
 
