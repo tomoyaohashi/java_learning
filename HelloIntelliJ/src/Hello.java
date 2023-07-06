@@ -6,6 +6,8 @@ javaの複数行コメントは
 このように記述します
 */
 
+import java.util.HashSet;
+
 public class Hello { // public classは「ここからプログラム処理が始まりますよ」という意・Helloはファイル名を記述
     public static void main(String[] args){ // javaを実行するための必須メソッド
         System.out.println("Hello IntelliJ");// 変数の値をなどをコンソールに出力するときに利用するメソッド（Hello IntelliJを出力）
@@ -89,6 +91,18 @@ public class Hello { // public classは「ここからプログラム処理が�
         for(int h = 0; h < fruits.length; h++) {
             System.out.println(fruits[h]);
             }
+
+        //反復拡張forを使用したプログラム
+        //コレクション（セット）を準備する
+        HashSet<String> books = new HashSet<>();//変数を宣言
+        books.add("不識の国のアリス");//宣言した変数booksに要素を追加1
+        books.add("ヘンゼルとグレーテル");//宣言した変数booksに要素を追加2
+        books.add("銀河鉄道の夜");//宣言した変数booksに要素を追加3
+        //コレクションの要素ごとに処理を実行する
+        for (String book : books){
+            System.out.println(book);
+        }
+
     }
     }
 }
@@ -113,4 +127,6 @@ while：条件を満たしている間、処理を実行する
 do-while：whileと同じだが、最初の一回は必ず実行される
 for：「n回処理を実行する」という用途に特化した反復
 拡張for：「コレクションの要素についてすべて実行する」という用途に特化した反復。
+・breakは現在の処理を中断してループを抜ける。
+・continueは現在の処理をスキップしてループを継続させたい時に使用する。
  */
