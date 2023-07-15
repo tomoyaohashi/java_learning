@@ -1,21 +1,20 @@
-package surasura.chapter9.list9_1;
+package surasura.chapter9.list9_7;
 
-public class Car {
-
+class Car {
     /* スピードを保存するフィールド */
     int speed;
 
     /* スピードを上げるメソッド */
-    void speedUp(int value) { //メソッドを定義
-        this.speed += value; //thisを付けることでフィールド名を参照することができる（speed = speed + value）
+    void speedUp(int value) {
+        this.speed += value;
     }
 
     /* スピードを下げるメソッド */
-    void speedDown(int value) { //メソッドを定義
+    void speedDown(int value) {
         this.speed -= value;
     }
-
 }
+
 /*
 「9 クラスの基礎」
 ・クラス名は「Pascal形式」・・・文字の先頭と単語の区切りを大文字で残りを小文字で記述する。（Car,SuperCerなど）
