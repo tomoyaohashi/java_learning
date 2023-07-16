@@ -7,5 +7,12 @@ public class Main {
 
         /* 速度 = 180 */
         System.out.println("速度 = " + car.getSpeed());
+
+        Truck truck = new Truck();
+        truck.addPayload(10);
+        truck.speedUp(60);
+
+        System.out.println("荷物 = " + truck.getPayload());
+        System.out.println("速度 = " + truck.getSpeed());
     }
 }
