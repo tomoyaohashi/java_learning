@@ -15,4 +15,10 @@ public class Truck extends Car {
     void deletePayload(int value) {
         this.payload -= value;
     }
+
+    @Override
+    String getCarType() {
+        return "トラック";
+    }
+
 }

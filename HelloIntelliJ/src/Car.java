@@ -33,6 +33,10 @@ class Car {
             this.speed = -15;
         }
     }
+
+    String getCarType() {
+        return "自動車";
+    }
 }
 
 /*
