@@ -37,6 +37,19 @@ class Car {
     String getCarType() {
         return "自動車";
     }
+
+    
+    /*ロックする（鍵を使う）*/
+    void lock(key key){
+        /*鍵でロックする処理*/
+        System.out.println("鍵でロックしました");
+    }
+
+    /*ロックする（リモコンを使う）*/
+    void lock(RemoteController Controller){
+        /*鍵でロックする処理*/
+        System.out.println("リモコンでロックしました");
+    }
 }
 
 /*
