@@ -38,6 +38,11 @@ class Car {
         return "自動車";
     }
 
+    /*finalを付けてオーバーライドを禁止する*/
+    final void initialize(){
+        this.speed = 0;
+    }
+
 }
 
 /*
