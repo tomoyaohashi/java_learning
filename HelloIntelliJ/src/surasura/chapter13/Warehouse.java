@@ -1,17 +1,17 @@
-package surasura.chapter13;
+package surasura.chapter13.list13_6;
 
-/* 倉庫クラス（何でも扱える） */
-public class Warehouse {
-    private Object item;
+/* ものを扱えるクラス（ジェネリクス利用） */
+public class Warehouse<T> {
+    private T item;
 
-    /*「物」オブジェクトを預かる */
-    public void stock(Object item) {
+    /* 「物」を預かる */
+    public void stock(T item) {
         this.item = item;
     }
 
-    /*「物」オブジェクトを取り出す */
-    public Object leave() {
-        Object item = this.item;
+    /* 「物」を取り出す */
+    public T leave() {
+        T item = this.item;
         this.item = null;
         return item;
     }
