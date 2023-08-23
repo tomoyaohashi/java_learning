@@ -363,7 +363,13 @@ Apache commons / log4j / JSON in java
 
 【Classクラスを使用してインスタンスを作成する】
 ①Class.newInstanceメソッドを使う（引数のないコンストラクターのみ使用可）
-
 ②Constructorクラスを使う
+
+●アノテーション
+・様々な特性を自由に指定できる様になる
+・構文：＠アノテーション　アノテーションの対象
+＠Override・・・オーバーライドされたメソッドを明示する
+@Deprecated・・・メソッドが古くなり、今後は使うべきではないことを明示する
+@SuppressWarnings・・コンパイル時の警告を無視することを明示する
 
  */
