@@ -372,4 +372,7 @@ Apache commons / log4j / JSON in java
 @Deprecated・・・メソッドが古くなり、今後は使うべきではないことを明示する
 @SuppressWarnings・・コンパイル時の警告を無視することを明示する
 
+「18 関数型プログラミング」
+・関数とは引数を渡すと返り値が返ってくるプログラム。
+
  */
